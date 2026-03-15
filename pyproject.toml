@@ -1,0 +1,17 @@
+[project]
+name = "rag-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.135.1",
+    "inngest>=0.5.18",
+    "llama-core>=0.4.2",
+    "llama-index-readers-file>=0.6.0",
+    "openai>=2.28.0",
+    "python-dotenv>=1.2.2",
+    "qdrant-client>=1.17.1",
+    "streamlit>=1.55.0",
+    "uvicorn>=0.41.0",
+]
